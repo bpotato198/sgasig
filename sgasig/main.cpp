@@ -19,7 +19,7 @@ int main() {
  string lvlinput;
 
  
- std::this_thread::sleep_for(3000ms);
+ std::this_thread::sleep_for(900ms);
  cout << "select a level! LVL1\n";
  getline(cin, lvlinput);
 
@@ -86,6 +86,7 @@ void shopkeeper() {
    }
    if (buysomething == "exit") {
        cout << "exiting the shop!..\n";
+       fartvillage();
 
 
    }
